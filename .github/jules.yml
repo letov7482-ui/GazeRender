@@ -1,0 +1,19 @@
+name: Jules Configuration
+version: 1.0
+
+# Jules agent configuration for GazeRender repository
+agent:
+  name: Jules
+  enabled: true
+  
+# Enable Jules for pull requests and issues
+features:
+  pull_requests: true
+  issues: true
+  code_review: true
+  
+# Jules workspace configuration
+workspace:
+  auto_branch: true
+  auto_commit: true
+  auto_pr: true
